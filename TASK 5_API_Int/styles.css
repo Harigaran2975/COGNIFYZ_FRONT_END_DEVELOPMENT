@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  color: #333;
+}
+
+#loadUsers {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#userList {
+  margin-top: 20px;
+}
+
+.user {
+  background: white;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-left: 5px solid #3498db;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

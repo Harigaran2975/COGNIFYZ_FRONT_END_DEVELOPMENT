@@ -1,0 +1,38 @@
+// scss/styles.scss
+
+// Variables
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$font-stack: 'Segoe UI', sans-serif;
+$base-font-size: 16px;
+
+// Nesting + Reuse
+body {
+  font-family: $font-stack;
+  font-size: $base-font-size;
+  background-color: $secondary-color;
+  color: white;
+
+  header {
+    background-color: $primary-color;
+    padding: 1rem;
+
+    h1 {
+      font-size: 2rem;
+      margin: 0;
+    }
+  }
+
+  button {
+    background-color: $primary-color;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: darken($primary-color, 10%);
+    }
+  }
+}
